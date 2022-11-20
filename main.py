@@ -6,7 +6,7 @@ from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QPainter, QPen, QPixmap, QTransform, QImage, QColor, qRgba, qRed, qGreen, qBlue
 from PyQt5.QtWidgets import QWidget, QApplication, QFileDialog, QMainWindow, QGraphicsItem, QLabel, QInputDialog
 
-SCREEN_SIZE = [500, 500]
+SCREEN_SIZE = [500, 500 ]
 
 
 class MyWidget(QMainWindow):
