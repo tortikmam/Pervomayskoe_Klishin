@@ -6,7 +6,7 @@ from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QPainter, QPen, QPixmap, QTransform, QImage, QColor, qRgba, qRed, qGreen, qBlue
 from PyQt5.QtWidgets import QWidget, QApplication, QFileDialog, QMainWindow, QGraphicsItem, QLabel, QInputDialog
 
-SCREEN_SIZE = [500, 500 ]
+SCREEN_SIZE = [500, 500]
 
 
 class MyWidget(QMainWindow):
@@ -14,7 +14,7 @@ class MyWidget(QMainWindow):
         super().__init__()
         self.do_paint = False
         uic.loadUi('UI.ui', self)
-        self.btn.clicked.connect(self.paint)
+        self.btn1.clicked.connect(self.paint)
 
     def paintEvent(self, event):
         if self.do_paint:
